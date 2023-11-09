@@ -13,10 +13,14 @@ body {
 .header {
     background-color: #1F2937;
     display: flex;
-    color: #F9FAF8;
     justify-content: space-between;
     padding: 8px 24px;
     align-items: center;
+}
+
+.header h2 {
+    font-size: 24px;
+    color: #F9FAF8;
 }
 
 ul {
@@ -27,7 +31,50 @@ ul {
 
 a {
     text-decoration: none;
+    color: #E5E7EB;
+}
+
+.hero-section {
+    background-color: #1F2937;
+    display: flex;
+    padding: 100px 20px;
+    justify-content: center;
+}
+
+.left-hero {
+    flex: 1;
+}
+
+.right-hero {
+    flex: 1;
+    background-color: rgba(128, 128, 128, 0.247);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-hero .image-pl {
+    color: grey;
+}
+
+.left-hero h1 {
+    font-size: 48px;
     color: #F9FAF8;
+}
+
+.left-hero p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.left-hero button {
+    background-color: #3882F6;
+    color: white;
+    border: none;
+    padding: 8px 30px;
+    font-weight: bold;
+    border-radius: 10px;
+    margin: 10px 0px;
 }
 
 .footer {
