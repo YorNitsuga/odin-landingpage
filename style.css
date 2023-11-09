@@ -77,6 +77,33 @@ a {
     margin: 10px 0px;
 }
 
+.info h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+    padding: 30px;
+}
+
+.info .container {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    padding-bottom: 100px;
+}
+
+.info-card {
+    max-width: 160px;
+    text-align: center;
+}
+
+.blue-square {
+    border: 4px solid rgb(52, 139, 179);
+    height: 160px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
 .thor {
     background-color: #E5E7EB;
     display: flex;
