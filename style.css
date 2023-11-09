@@ -126,6 +126,32 @@ a {
     font-size: 24px;
 }
 
+.signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-to-action {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 40px 60px;
+    margin: 80px auto;
+    border-radius: 15px;
+    display: flex;
+    gap: 75px;
+}
+
+.right-cta button {
+    background-color: #3882F6;
+    color: white;
+    border: 2px solid white;
+    padding: 8px 30px;
+    font-weight: bold;
+    border-radius: 10px;
+    margin: 10px 0px;
+}
+
 .footer {
     height: 40px;
     background-color: #1F2937;
